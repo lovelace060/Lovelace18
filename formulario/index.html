@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovelace</title>
+    <link rel="icon" type="image/png" href="LOGOLOVE.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+
+        <div class="menu container">
+            <a class="logo">logo</a>
+            <div class="logo-1">
+                <img src="images/LOGOLOVE.png" class="menu-icono" alt="">
+            </div>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#Registrate">Registrate</a></li>
+                    <li><a href="#Acerca de">Acerca de</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li><a href="#Nuestras redes">Nuestras redes</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="header-content container" id="Inicio">
+
+            <h1>Lovelace</h1>
+            <p>
+                Somos una empresa dedicada a la creación de páginas web.
+            </p>
+
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container" id="Registrate">
+            <div class="grid">
+              <div class="grid-item-1">
+                <div class="showcase-text">
+                  <h1>Haz tu pagina con nosotros , ¡hoy!</h1>
+                  <p class="supporting-text"> Nosotros somos tu mejor opción.</p>
+                </div>
+                <div class="showcase-form">
+                    <h1>Formulario de registro</h1>
+    <form action="registro.php" name="" method="POST">
+      <table border="0" align="center">
+        <tr>
+          <td>
+            Nombre y Apellido:
+          </td>
+          <td>
+            <label for="name"></label>
+            <input type="text" name="nombre" id="nombre" required  />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Usuario:
+          </td>
+          <td>
+            <label for="text"></label>
+            <input type="text" name="usuario" id="usuario" required  />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Correo:
+          </td>
+          <td>
+            <label for="text"></label>
+            <input type="text" name="correo" id="correo"  required />
+          </td>
+        </tr>
+          </td>
+         <tr>
+          <td>
+            Telefono:
+          </td>
+          <td>
+            <label for="text"></label>
+            <input type="text" name="telefono" id="telefono"  required />
+          </td>
+        </tr>
+        <tr>
+        <td>
+            Contraseña:
+          </td>
+          <td>
+            <label for="password"></label>
+            <input type="password" name="contraseña" id="contraseña"  required />
+          </td>
+        </tr>
+        <!--<tr>
+          <td>
+            Repetir contraseña:
+          </td>
+          <td>
+            <label for="rep_pasword"></label>
+            <input type="pasword" name="rep_contraseña" id="rep_pasword"  required />
+          </td>
+        </tr>-->
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center">
+            <input
+              type="submit"
+              name="enviar"
+              id="enviar"
+              value="Registrarse"
+            />
+          </td>
+          <td align="center">
+            <input type="reset" name="borrar" id="borrar" value="Restablecer" />
+          </td>
+        </tr>
+      </table>
+    </form>
+     
+
+                 
+      </section>
+
+    <section class="lovelace">
+        <img class="lovelace-img" src="images/software.png" alt="">
+        <div class="lovelace-content container" id="Acerca de">
+
+            <h2>Acerca de nosotros</h2>
+            <h3>Objetivo general</h3>
+            <p class="txt-p">
+
+                la realización de paginas con una excelente calidad que nos hará resaltar
+                entre la competencia.
+
+            </p>
+            <h3>Nuestra misión</h3>
+                <p class="txt-p">
+
+                La misión de Lovelace es hacer que cualquier tipo de empresa tenga 
+                acceso a poder contactarse con nosotros para crear su página,
+                además nosotros como empresa vamos a brindarle la mejor opción al
+                cliente según lo que nos solicitó siendo para ellos su mejor opción
+                en precio y calidad.
+            </p>
+            <h3>Nuestra visión</h3>
+                <p class="txt-p">
+
+                En un futuro nos vemos satisfaciendo los pedidos de nuestros futuros
+                clientes respecto a la realización de sus paginas, ,siendo nuestra 
+                la mejor opción para ellos en cuanto a calidad y precio ya que tenemos
+                en cuenta el presupuesto de estos, pero a la vez también nos concentramos
+                en darle una pagina con la que se siente satisfecho.
+
+            </p>
+            <div class="lovelace-group">
+                <div class="lovelace-1">
+                    <img src="images/code1.png">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <main class="services">
+        <div class="services-content container" id="Servicios">
+            <h2>Nuestros servicios</h2>
+            <div class="services-group">
+                <div class="services-1">
+                    <img src="images/pc1.png" alt="">
+                    <h3>Ofrecemos páginas con una excelente calidad 
+                      para que nuestros clientes queden satisfechos.</h3>
+
+                </div>
+                <div class="services-1">
+                    <img src="images/pc1.png" alt="">
+                    <h3>Nos adaptamos al presupuesto de el cliente basandonos en nuestros 
+                      precios base, pero buscando alternativas para favorecer a este.</h3>
+
+                </div>
+                <div class="services-1">
+                    <img src="images/pc1.png" alt="">
+                    <h3>Buscamos entregar excelentes resultados para cumplir las expectativas de nuestros clientes.</h3>
+
+                </div>
+        </div>
+    </main>
+
+    <section class="general">
+        <div class="general-1" id="Nuestras redes">
+        <h2>Nuestras redes</h2>
+    <p>
+        <img src="images/ig.png" alt="">
+        <a href="https://instagram.com/lovelace_060?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instagram</a>
+    </p>
+    <p>
+        <img src="images/fb.png" alt="">
+        <a href="https://www.facebook.com/profile.php?id=61551267429038&is_tour_completed=true" target="_blank">Facebook</a> 
+    </p>
+    <p> 
+        <img src="images/gmail.png"  alt="">
+        Lovelace181716@gmail.com
+        
+    </p>
+    </div>
+    <div class="general-2">
+    <p>
+       <h3> ¿Qué esperas para solicitar nuestros servicios?</h3>
+    </p>
+    </div>
+</section>
+
+</body>
+</html>
